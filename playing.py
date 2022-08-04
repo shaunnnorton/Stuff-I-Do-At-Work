@@ -6,7 +6,7 @@ class EssentialFunctions():
     def __init__(self) -> None:
         pass
 
-    def calculate_percentage():
+    def calculate_percentage(self):
         original = None
         discounted = None
         while True:
