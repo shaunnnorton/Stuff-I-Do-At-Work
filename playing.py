@@ -22,7 +22,7 @@ class EssentialFunctions():
             print("TOOFAR SOMETHING IS BROKEN")
             break
         print("The calculated percentage is.")
-        print((1.0-(discounted//original))*100)
+        print((1.0-(discounted/original))*100)
 
 
 test = EssentialFunctions()
