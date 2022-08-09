@@ -70,7 +70,7 @@ class EssentialFunctions():
     def run_interactive(self):
         while True:
             try:
-                action_input = int(input(prompt))
+                action_input = int(input(f"{prompt}"))
             except:
                 print("Sorry. There was an error with your input please try again \n")
                 print("###################################################################")
