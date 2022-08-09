@@ -31,6 +31,7 @@ class EssentialFunctions():
             break
         print("The calculated percentage is.")
         print(f"{(1.0-(discounted/original))*100:.2f}%")
+        input("\n Press ENTER to continue.")
 
     
     def calculate_seccond_discount(self):
@@ -57,6 +58,7 @@ class EssentialFunctions():
                     continue
                 calculated_percentage = 100*(1-(current_price-(add_percentage*current_price))/original_price)
                 print(f"\n The new calculated percentage is {calculated_percentage:.2f}%")
+                input("\n Press ENTER to continue.")
                 break
     
     def calculate_discounted_price(self):
@@ -78,6 +80,7 @@ class EssentialFunctions():
             else:
                 new_price = current_price-(current_price*percent_off)
                 print(f"\n Your discounted price is ${new_price}! \n")
+                input("\n Press ENTER to continue.")
                 break
 
     def run_interactive(self):
