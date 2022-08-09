@@ -19,7 +19,7 @@ class EssentialFunctions():
                 print("Im sorry I didnt understand one of your price inputs.")
                 continue
             else:
-                if [float(0)] in (original):
+                if float(0) == original:
                     print("ZEROS ARE RUDE DONT USE THEM")
                     continue
 
