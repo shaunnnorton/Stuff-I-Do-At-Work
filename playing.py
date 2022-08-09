@@ -77,7 +77,7 @@ class EssentialFunctions():
                 print("###################################################################")
                 continue
             else:
-                self.actions[action_input]
+                self.actions[action_input]()
 
 test = EssentialFunctions()
 
