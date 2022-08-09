@@ -19,7 +19,7 @@ class EssentialFunctions():
                 print("Im sorry I didnt understand one of your price inputs.")
                 continue
             else:
-                if float(0) in (original):
+                if [float(0)] in (original):
                     print("ZEROS ARE RUDE DONT USE THEM")
                     continue
 
@@ -45,7 +45,7 @@ class EssentialFunctions():
                 print("There was an error wiht one of your inputs. Starting from the begining.")
                 continue
             else:
-                if float(0) in (current_price,original_price,add_percentage):
+                if [float(0)] in (current_price,original_price,add_percentage):
                     print("ZEROS ARE RUDE DONT USE THEM")
                     continue
                 calculated_percentage = 100*(1-(current_price-(add_percentage*current_price))/original_price)
