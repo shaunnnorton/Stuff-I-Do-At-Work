@@ -71,7 +71,7 @@ class EssentialFunctions():
         action_input = None
         while True:
             try:
-                action_input = float(input(f"{prompt}"))
+                action_input = int(input(f"{self.prompt}"))
             except:
                 print("Sorry. There was an error with your input please try again \n")
                 print("###################################################################")
