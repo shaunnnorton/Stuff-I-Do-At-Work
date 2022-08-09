@@ -56,3 +56,4 @@ class EssentialFunctions():
 
 test = EssentialFunctions()
 test.calculate_percentage()
+test.calculate_seccond_discount()
