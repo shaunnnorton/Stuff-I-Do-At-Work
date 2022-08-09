@@ -11,7 +11,7 @@ class EssentialFunctions():
         original = None
         discounted = None
         print("###################################################################\n")
-        print("Please enter all amounts without the currency symbol.")
+        print("Please enter all amounts without the currency symbol. \n")
         print("###################################################################\n")
         while True:
             try:
@@ -39,7 +39,7 @@ class EssentialFunctions():
         original_price = None
         add_percentage = None
         print("###################################################################\n")
-        print("Please enter all amounts without the currency symbol.")
+        print("Please enter all amounts without the currency symbol. \n")
         print("###################################################################\n")
 
         while True:
@@ -64,7 +64,7 @@ class EssentialFunctions():
         percent_off = None
 
         print("###################################################################\n")
-        print("Please enter all amounts without the currency symbol.")
+        print("Please enter all amounts without the currency symbol. \n")
         print("###################################################################\n")
 
         while True:
