@@ -77,6 +77,8 @@ class EssentialFunctions():
                 print("###################################################################")
                 continue
             else:
+                if action_input == 100:
+                    break
                 self.actions[action_input]()
 
 test = EssentialFunctions()
