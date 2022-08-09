@@ -94,6 +94,7 @@ class EssentialFunctions():
                 print("###################################################################\n")
                 print("Sorry. There was an error with your input please try again \n")
                 print("###################################################################\n")
+                input("PRESS ENTER")
                 continue
             else:
                 if action_input == 100:
