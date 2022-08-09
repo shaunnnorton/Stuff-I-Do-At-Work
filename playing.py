@@ -66,10 +66,11 @@ class EssentialFunctions():
             else:
                 new_price = current_price-(current_price*percent_off)
                 print(f"Your discounted price is ${new_price}!")
+                break
 
     def run_interactive(self):
-        action_input = None
         while True:
+            action_input = None
             try:
                 action_input = int(input(f"{self.prompt}"))
             except:
