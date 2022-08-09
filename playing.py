@@ -86,6 +86,7 @@ class EssentialFunctions():
     def run_interactive(self):
         while True:
             action_input = None
+            print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
             os.system('cls' if os.name == 'nt' else 'clear')
             try:
                 action_input = int(input(f"{self.prompt}"))
