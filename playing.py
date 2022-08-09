@@ -1,6 +1,7 @@
 print("Hello World")
 doing = input("What is are you doing right now Shaun?")
 print(f"Silly goose {doing} is not what you are paid to do Silly")
+import os
 
 class EssentialFunctions():
     def __init__(self) -> None:
@@ -83,7 +84,7 @@ class EssentialFunctions():
         while True:
             action_input = None
             try:
-                print("\n \n \n \n")
+                os.system('cls' if os.name == 'nt' else 'clear')
                 action_input = int(input(f"{self.prompt}"))
             except:
                 print("###################################################################\n")
