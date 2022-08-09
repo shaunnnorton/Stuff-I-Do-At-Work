@@ -68,6 +68,7 @@ class EssentialFunctions():
                 print(f"Your discounted price is ${new_price}!")
 
     def run_interactive(self):
+        action_input = None
         while True:
             try:
                 action_input = int(input(f"{prompt}"))
