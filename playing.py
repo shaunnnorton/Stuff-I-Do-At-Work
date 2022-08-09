@@ -83,6 +83,7 @@ class EssentialFunctions():
         while True:
             action_input = None
             try:
+                print("\n \n \n \n")
                 action_input = int(input(f"{self.prompt}"))
             except:
                 print("###################################################################\n")
