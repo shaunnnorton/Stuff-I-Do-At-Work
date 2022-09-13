@@ -2,11 +2,42 @@ print("Hello World")
 doing = input("What is are you doing right now Shaun?")
 print(f"Silly goose {doing} is not what you are paid to do Silly")
 import os
+import datetime
 
 class EssentialFunctions():
     def __init__(self) -> None:
         self.prompt = "What would you like to do?: \n [0]Calculate Percentage \n [1]Calculate Additional Percentage \n [2]Calculate Discounted Price \n"
         self.actions = {0:self.calculate_percentage,1:self.calculate_seccond_discount,2:self.calculate_discounted_price}
+    
+
+    #Not to be used unless can be ran on a local WSI machine
+    def generate_credit_note(self):
+        """Automatically create the note for a credit."""
+        credit_amount = input("What is the total credit amount?")
+        merch_amount = input("What is the total before taxes?")
+        invoice = input("What is the invoice number?")
+        item = input("What is the item number. (Write multiple for 2 or more)")
+        reason = input("What is the reason for the request.")
+        account = input("What is the account number?")
+        print(
+            f'''
+                REJUVENATION - FTI Issued by Snort on Account# {account} | Credit | FTI Total: ${credit_amount}
+
+                Invoice {invoice} has been posted {datetime.date}
+
+                Please allow 7 to 10 Business days for credit to show on customer's statement.
+
+                {item} – {reason} – credit amount before tax ${merch_amount}
+            '''
+        )
+
+
+
+
+    
+    
+    
+    
     def calculate_percentage(self):
         """Calculate the percentage given an origninal price and discounted price"""
         original = None
@@ -107,3 +138,4 @@ test.run_interactive()
 
 #test.calculate_percentage()
 #test.calculate_seccond_discount()
+
